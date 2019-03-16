@@ -1,6 +1,7 @@
 package ch.c3smonkey.sample.kotlin.collection
 
-import ch.c3smonkey.kotlin.tutorial.dataclass.ClothingItem
+import ch.c3smonkey.sample.kotlin.dataclass.ClothingItem
+
 
 fun main(args: Array<String>) {
 

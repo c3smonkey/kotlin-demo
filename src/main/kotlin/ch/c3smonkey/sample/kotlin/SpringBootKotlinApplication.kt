@@ -3,9 +3,11 @@ package ch.c3smonkey.sample.kotlin
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
+// VM arguments : -noverify
 @SpringBootApplication
-class KotlinDemoApplication
+class SpringBootKotlinApplication
 
 fun main(args: Array<String>) {
-	runApplication<KotlinDemoApplication>(*args)
+	System.setProperty("spring.main.lazy-initialization", "true")
+	runApplication<SpringBootKotlinApplication>(*args)
 }

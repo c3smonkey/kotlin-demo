@@ -1,5 +1,7 @@
 package ch.c3smonkey.sample.kotlin.sequences
 
+import ch.c3smonkey.sample.kotlin.lambda.getStudents
+
 fun sequences() {
     val students = getStudents()
     val sqStudents = students.drop(1).take(3).toList()

@@ -1,13 +1,15 @@
-package ch.keepcalm.kotlin
+package ch.c3smonkey.sample.kotlin
 
+import org.junit.Ignore
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.test.context.junit4.SpringRunner
 
+@Ignore
 @RunWith(SpringRunner::class)
 @SpringBootTest
-class KotlinDemoApplicationTests {
+class SpringBootKotlinApplicationTests {
 
 	@Test
 	fun contextLoads() {

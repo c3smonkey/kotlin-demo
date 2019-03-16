@@ -1,6 +1,7 @@
 package ch.c3smonkey.sample.kotlin.destructuring
 
-import ch.c3smonkey.kotlin.tutorial.overloadingOperator.Postition
+import ch.c3smonkey.sample.kotlin.overloadingOperator.Postition
+
 
 fun main(args: Array<String>) {
     val p1 = Postition(200, 100)
